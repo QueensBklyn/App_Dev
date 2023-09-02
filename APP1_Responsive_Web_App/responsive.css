@@ -1,0 +1,36 @@
+@media only screen and (min-width:1000px){
+    body{background-color:rgb(233, 240, 233);}
+        .title{
+            color: rgb(13, 87, 225);
+            text-align:center;
+       }
+       .card{
+        width: 45%;
+       }
+    }
+
+    @media screen and (max-width:700px) {
+        body{background-color: azure;}
+        .title{
+            text-align: right;
+            color:bisque
+        }
+        .card{
+            width: 70%;
+            margin-bottom: 2em;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        body{background-color: rgb(220, 238, 255);}
+        .title{
+            text-align:center;
+            font-size: 1.5em;
+            color:rgb(226, 43, 43);
+        }
+        .cardContent p:nth-child(1){
+            font-size: 1.1em;
+         }
+         .card{
+            width: 100%;
+         }
+    }
